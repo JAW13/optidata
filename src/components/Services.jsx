@@ -14,9 +14,9 @@ function Services() {
               <div className="mb-4">
                 <img src={automatizaImg} alt="Consultoría en Automatización" className="mx-auto h-16"/>
               </div>
-              <h3 className="text-2xl font-semibold mb-2">Consultoría en Automatización</h3>
+              <h3 className="text-2xl font-semibold mb-2">Automatización Inteligente de Procesos</h3>
               <p className="text-gray-700 mb-4">
-                Diseñamos e implementamos soluciones a medida para automatizar tus procesos clave.
+              Implementamos soluciones de automatización que eliminan tareas manuales y repetitivas, aumentando la productividad y reduciendo errores humanos.
               </p>
               <a href="#contacto" className="text-blue-600 hover:text-blue-800 font-semibold">
                 Más Información &rarr;
@@ -29,9 +29,9 @@ function Services() {
               <div className="mb-4">
                 <img src="/icons/integration-icon.svg" alt="Integración de Sistemas" className="mx-auto h-16"/>
               </div>
-              <h3 className="text-2xl font-semibold mb-2">Integración de Sistemas</h3>
+              <h3 className="text-2xl font-semibold mb-2">Centralización y Gestión de Datos</h3>
               <p className="text-gray-700 mb-4">
-                Conectamos tus herramientas y plataformas para un flujo de información sin interrupciones.
+              Consolidamos tus datos dispersos en una plataforma única y segura, facilitando el acceso y la gestión de la información crítica de tu negocio
               </p>
               <a href="#contacto" className="text-blue-600 hover:text-blue-800 font-semibold">
                 Más Información &rarr;
@@ -44,9 +44,9 @@ function Services() {
               <div className="mb-4">
                 <img src="/icons/data-analysis-icon.svg" alt="Análisis de Datos" className="mx-auto h-16"/>
               </div>
-              <h3 className="text-2xl font-semibold mb-2">Análisis de Datos</h3>
+              <h3 className="text-2xl font-semibold mb-2">Análisis Avanzado y Business Intelligence</h3>
               <p className="text-gray-700 mb-4">
-                Transformamos tus datos en insights valiosos para la toma de decisiones.
+              Aplicamos herramientas de análisis avanzado y BI para interpretar tus datos, revelando tendencias y oportunidades que impulsan el crecimiento.
               </p>
               <a href="#contacto" className="text-blue-600 hover:text-blue-800 font-semibold">
                 Más Información &rarr;

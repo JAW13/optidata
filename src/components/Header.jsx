@@ -61,15 +61,15 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#modelo-ari" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
-                Modelo ARI
-              </a>
-            </li>
-            <li>
               <a href="#servicios" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
                 Servicios
               </a>
             </li>
+              <li>
+            <a href="#como-trabajamos" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
+              Cómo Trabajamos
+            </a>
+          </li>
             <li>
               <a href="#casos-exito" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
                 Casos de Éxito

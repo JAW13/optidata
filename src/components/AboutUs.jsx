@@ -9,7 +9,7 @@ function AboutUs() {
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h2 className="text-4xl font-bold mb-4">¿Quiénes Somos?</h2>
           <p className="text-lg text-gray-700">
-            En <span className="font-semibold">Optidata</span>, nos dedicamos a transformar las operaciones internas de las organizaciones. Nuestro equipo de expertos trabaja contigo para identificar oportunidades de mejora y aplicar soluciones de automatización que impulsan la eficiencia y el crecimiento.
+            En el competitivo mundo empresarial actual, la eficiencia y la agilidad son clave para el éxito. Muchas organizaciones se enfrentan a procesos internos ineficientes que consumen tiempo y recursos valiosos. En <span className="font-semibold">Optidata</span>, nuestra pasión es transformar estas dificultades en oportunidades, optimizando tus procesos internos para que puedas enfocarte en lo que realmente importa: <span className="font-semibold">hacer crecer tu negocio.</span>
           </p>
         </div>
         <div className="md:w-1/2 md:pl-12">

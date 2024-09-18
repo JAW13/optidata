@@ -6,6 +6,7 @@ import AboutUs from './components/AboutUs';
 import ModelARI from './components/ModelARI';
 import Services from './components/Services';
 import SuccessCases from './components/SuccessCases';
+import HowWeWork from './components/HowWeWork'; 
 import Team from './components/Team'; // Nuevo componente
 import Blog from './components/Blog'; // Nuevo componente
 import CTASection from './components/CTASection';
@@ -20,6 +21,7 @@ function App() {
       <AboutUs />
       <ModelARI />
       <Services />
+      <HowWeWork />
       <SuccessCases />
       <Team /> 
       <Blog /> 
