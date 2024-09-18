@@ -1,5 +1,6 @@
 // Header.js
 import React, { useState } from 'react';
+import logotipoImg from '../assets/logotipo.png';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,8 +10,8 @@ function Header() {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo y Nombre de la Empresa */}
         <div className="flex items-center">
-          <img src="/images/logo.png" alt="" className="h-8 mr-2" />
-          <a href="#inicio" className="text-2xl font-bold text-blue-600">
+          <img src={logotipoImg} alt="" className="h-8 mr-2" />
+          <a href="#inicio" className="text-2xl font-bold text-black">
             Optidata
           </a>
         </div>
