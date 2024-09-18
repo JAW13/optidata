@@ -1,5 +1,6 @@
 // Header.js
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logotipoImg from '../assets/logotipo.png';
 
 function Header() {
@@ -11,9 +12,9 @@ function Header() {
         {/* Logo y Nombre de la Empresa */}
         <div className="flex items-center">
           <img src={logotipoImg} alt="" className="h-8 mr-2" />
-          <a href="#inicio" className="text-2xl font-bold text-black">
+          <Link to="/" className="text-2xl font-bold text-black">
             Optidata
-          </a>
+          </Link>
         </div>
 
         {/* Botón del menú móvil */}
@@ -21,6 +22,7 @@ function Header() {
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="text-blue-600 focus:outline-none"
+            aria-label="Abrir menú de navegación"
           >
             <svg
               className="h-6 w-6"
@@ -56,42 +58,76 @@ function Header() {
         >
           <ul className="md:flex md:space-x-6 text-lg items-center md:ml-auto">
             <li>
-              <a href="#inicio" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
-                Inicio
-              </a>
-            </li>
-            <li>
-              <a href="#servicios" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
-                Servicios
-              </a>
-            </li>
-              <li>
-            <a href="#como-trabajamos" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
-              Cómo Trabajamos
-            </a>
-          </li>
-            <li>
-              <a href="#casos-exito" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
-                Casos de Éxito
-              </a>
-            </li>
-            <li>
-              <a href="#equipo" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
-                Equipo
-              </a>
-            </li>
-            <li>
-              <a href="#blog" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
-                Blog
-              </a>
-            </li>
-            <li>
-              <a
-                href="#contacto"
-                className="block py-2 px-4 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 text-center md:inline-block" onClick={() => setMenuOpen(false)}
+              <Link
+                to="/"
+                className="block py-2 px-4 hover:text-blue-600"
+                onClick={() => setMenuOpen(false)}
               >
-                Conversemos
-              </a>
+                Inicio
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/#servicios"
+                className="block py-2 px-4 hover:text-blue-600"
+                onClick={() => setMenuOpen(false)}
+              >
+                Servicios
+              </Link>
+            </li>
+                        <li>
+              <Link
+                to="/#servicios"
+                className="block py-2 px-4 hover:text-blue-600"
+                onClick={() => setMenuOpen(false)}
+              >
+                Servicios
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/#como-trabajamos"
+                className="block py-2 px-4 hover:text-blue-600"
+                onClick={() => setMenuOpen(false)}
+              >
+                Como Trabajamos
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/#casos-exito"
+                className="block py-2 px-4 hover:text-blue-600"
+                onClick={() => setMenuOpen(false)}
+              >
+                Casos de Éxito
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/#equipo"
+                className="block py-2 px-4 hover:text-blue-600"
+                onClick={() => setMenuOpen(false)}
+              >
+                Equipo
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/#blog"
+                className="block py-2 px-4 hover:text-blue-600"
+                onClick={() => setMenuOpen(false)}
+              >
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/#contacto"
+                className="block py-2 px-4 hover:text-blue-600"
+                onClick={() => setMenuOpen(false)}
+              >
+                Contacto
+              </Link>
             </li>
           </ul>
         </nav>
@@ -101,5 +137,3 @@ function Header() {
 }
 
 export default Header;
-
-

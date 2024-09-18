@@ -1,37 +1,30 @@
 // App.js
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import AboutUs from './components/AboutUs';
-import ModelARI from './components/ModelARI';
-import Services from './components/Services';
-import SuccessCases from './components/SuccessCases';
-import HowWeWork from './components/HowWeWork'; 
-import Team from './components/Team'; // Nuevo componente
-import Blog from './components/Blog'; // Nuevo componente
-import CTASection from './components/CTASection';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './ScrollToTop';
+import Home from './pages/Home';
+import AutomationDetail from './pages/AutomationDetail';
+import DataManagementDetail from './pages/DataManagementDetail'; // Importa el nuevo componente
+import BusinessIntelligenceDetail from './pages/BusinessIntelligenceDetail'; // Importa el nuevo componente
 
 function App() {
   return (
     <div className="font-sans antialiased">
       <Header />
-      <Hero />
-      <AboutUs />
-      <ModelARI />
-      <Services />
-      <HowWeWork />
-      <SuccessCases />
-      <Team /> 
-      <Blog /> 
-      <CTASection />
-      <Contact />
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/automatizacion-inteligente" element={<AutomationDetail />} />
+        <Route path="/gestion-datos" element={<DataManagementDetail />} />
+        <Route path="/business-intelligence" element={<BusinessIntelligenceDetail />} />
+      </Routes>
       <Footer />
-
     </div>
   );
 }
 
 export default App;
+
 
