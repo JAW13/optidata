@@ -1,18 +1,20 @@
 // Team.js
 import React from 'react';
+import gustavoImg from '../assets/gustavo.png';
+import joaquinImg from '../assets/joaquin.png';
 
 function Team() {
   const teamMembers = [
     {
       name: 'Gustavo Díaz',
       role: 'Director Comercial',
-      image: '/images/team/juan-perez.jpg',
+      image: gustavoImg,
       bio: 'Con más de 15 años de experiencia en la industria, Gustavo lidera la visión estratégica de la empresa, impulsando la innovación y la excelencia en cada proyecto.',
     },
     {
       name: 'Joaquín Arancibia',
       role: 'Director de Tecnología',
-      image: '/images/team/maria-gomez.jpg',
+      image: joaquinImg,
       bio: 'Especialista en sistemas de automatización y arquitectura de software, Joaquín es responsable de dirigir nuestros equipos técnicos hacia soluciones de alto impacto.',
     },
 
