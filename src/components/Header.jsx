@@ -75,15 +75,7 @@ function Header() {
                 Servicios
               </Link>
             </li>
-                        <li>
-              <Link
-                to="/#servicios"
-                className="block py-2 px-4 hover:text-blue-600"
-                onClick={() => setMenuOpen(false)}
-              >
-                Servicios
-              </Link>
-            </li>
+
             <li>
               <Link
                 to="/#como-trabajamos"
