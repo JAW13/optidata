@@ -4,16 +4,16 @@ import React from 'react';
 function Team() {
   const teamMembers = [
     {
-      name: 'Juan Pérez',
-      role: 'CEO y Fundador',
+      name: 'Gustavo Díaz',
+      role: 'Director Comercial',
       image: '/images/team/juan-perez.jpg',
-      bio: 'Con más de 15 años de experiencia en la industria, Juan lidera la visión estratégica de la empresa, impulsando la innovación y la excelencia en cada proyecto.',
+      bio: 'Con más de 15 años de experiencia en la industria, Gustavo lidera la visión estratégica de la empresa, impulsando la innovación y la excelencia en cada proyecto.',
     },
     {
-      name: 'María Gómez',
-      role: 'Directora de Tecnología',
+      name: 'Joaquín Arancibia',
+      role: 'Director de Tecnología',
       image: '/images/team/maria-gomez.jpg',
-      bio: 'Especialista en sistemas de automatización y arquitectura de software, María es responsable de dirigir nuestros equipos técnicos hacia soluciones de alto impacto.',
+      bio: 'Especialista en sistemas de automatización y arquitectura de software, Joaquín es responsable de dirigir nuestros equipos técnicos hacia soluciones de alto impacto.',
     },
 
     // Agrega más miembros según sea necesario
