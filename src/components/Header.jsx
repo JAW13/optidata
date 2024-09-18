@@ -55,39 +55,39 @@ function Header() {
         >
           <ul className="md:flex md:space-x-6 text-lg items-center md:ml-auto">
             <li>
-              <a href="#inicio" className="block py-2 px-4 hover:text-blue-600">
+              <a href="#inicio" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
                 Inicio
               </a>
             </li>
             <li>
-              <a href="#modelo-ari" className="block py-2 px-4 hover:text-blue-600">
+              <a href="#modelo-ari" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
                 Modelo ARI
               </a>
             </li>
             <li>
-              <a href="#servicios" className="block py-2 px-4 hover:text-blue-600">
+              <a href="#servicios" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
                 Servicios
               </a>
             </li>
             <li>
-              <a href="#casos-exito" className="block py-2 px-4 hover:text-blue-600">
+              <a href="#casos-exito" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
                 Casos de Éxito
               </a>
             </li>
             <li>
-              <a href="#equipo" className="block py-2 px-4 hover:text-blue-600">
+              <a href="#equipo" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
                 Equipo
               </a>
             </li>
             <li>
-              <a href="#blog" className="block py-2 px-4 hover:text-blue-600">
+              <a href="#blog" className="block py-2 px-4 hover:text-blue-600" onClick={() => setMenuOpen(false)}>
                 Blog
               </a>
             </li>
             <li>
               <a
                 href="#contacto"
-                className="block py-2 px-4 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 text-center md:inline-block"
+                className="block py-2 px-4 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 text-center md:inline-block" onClick={() => setMenuOpen(false)}
               >
                 Conversemos
               </a>
