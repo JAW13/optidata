@@ -21,9 +21,9 @@ function Home() {
       <SuccessCases />
       <HowWeWork />
       <Team />
-      <Blog />
       <CTASection />
       <Contact />
+      <Blog />
     </>
   );
 }

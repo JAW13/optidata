@@ -9,7 +9,7 @@ function Team() {
       name: 'Gustavo Díaz',
       role: 'Director Comercial',
       image: gustavoImg,
-      bio: 'Con más de 15 años de experiencia en la industria, Gustavo lidera la visión estratégica de la empresa, impulsando la innovación y la excelencia en cada proyecto.',
+      bio: 'Gustavo lidera la visión estratégica de la empresa, enfocándose en impulsar la innovación y garantizar la excelencia en cada proyecto, siempre buscando nuevas formas de superar los desafíos del sector.',
     },
     {
       name: 'Joaquín Arancibia',

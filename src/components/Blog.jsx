@@ -1,5 +1,6 @@
 // Blog.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Blog() {
   const blogPosts = [
@@ -46,12 +47,12 @@ function Blog() {
                   <h3 className="text-2xl font-semibold mb-2">{post.title}</h3>
                   <p className="text-gray-500 text-sm mb-2">{post.date}</p>
                   <p className="text-gray-700 mb-4">{post.summary}</p>
-                  <a
-                    href={post.link}
+                  <Link
+                    to={post.link}
                     className="text-blue-600 hover:text-blue-800 font-semibold"
                   >
                     Leer Más &rarr;
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}

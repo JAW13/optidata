@@ -18,7 +18,7 @@ function SuccessCases() {
             <p className="text-lg text-gray-700 mb-4">
               Implementamos un sistema que automatiza la extracción de datos de boletas, logrando una reducción del <span className="font-bold">90%</span> en tiempo de rendición.
             </p>
-            <p className="text-gray-600 italic">"Gracias a TuEmpresa, hemos optimizado enormemente nuestro proceso de rendición de gastos. El ahorro de tiempo es impresionante." - <span className="font-semibold">Cliente Satisfecho</span></p>
+            <p className="text-gray-600 italic">"Gracias a Optidata, hemos optimizado enormemente nuestro proceso de rendición de gastos. El ahorro de tiempo es impresionante." - <span className="font-semibold">Cliente Satisfecho</span></p>
           </div>
         </div>
         {/* Caso 2 */}
@@ -31,7 +31,7 @@ function SuccessCases() {
             <p className="text-lg text-gray-700 mb-4">
               Brindamos soporte 24/7 con respuestas complejas basadas en información de la empresa, mejorando significativamente la atención al cliente.
             </p>
-            <p className="text-gray-600 italic">"El ChatBot desarrollado por TuEmpresa ha revolucionado nuestra atención al cliente, brindando respuestas precisas y oportunas en todo momento." - <span className="font-semibold">Cliente Satisfecho</span></p>
+            <p className="text-gray-600 italic">"El ChatBot desarrollado por Optidata ha revolucionado nuestra atención al cliente, brindando respuestas precisas y oportunas en todo momento." - <span className="font-semibold">Cliente Satisfecho</span></p>
           </div>
         </div>
       </div>
