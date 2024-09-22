@@ -15,7 +15,7 @@ function Services() {
           <div className="md:w-1/3 mb-8 md:mb-0">
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
               <div className="mb-4">
-                <img src={servicio1Img} alt="Automatización Inteligente de Procesos" className="mx-auto h-16" />
+                <img src={servicio1Img} alt="Automatización Inteligente de Procesos" className="mx-auto h-16 rounded-lg" />
               </div>
               <h3 className="text-2xl font-semibold mb-2">Automatización Inteligente de Procesos</h3>
               <p className="text-gray-700 mb-4">
@@ -31,7 +31,7 @@ function Services() {
           <div className="md:w-1/3 mb-8 md:mb-0">
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
               <div className="mb-4">
-                <img src={servicio2Img} alt="Centralización y Gestión de Datos" className="mx-auto h-16" />
+                <img src={servicio2Img} alt="Centralización y Gestión de Datos" className="mx-auto h-16 rounded-lg" />
               </div>
               <h3 className="text-2xl font-semibold mb-2">Centralización y Gestión de Datos</h3>
               <p className="text-gray-700 mb-4">
@@ -47,7 +47,7 @@ function Services() {
           <div className="md:w-1/3">
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
               <div className="mb-4">
-                <img src={servicio3Img} alt="Análisis Avanzado y Business Intelligence" className="mx-auto h-16" />
+                <img src={servicio3Img} alt="Análisis Avanzado y Business Intelligence" className="mx-auto h-16 rounded-lg" />
               </div>
               <h3 className="text-2xl font-semibold mb-2">Análisis Avanzado y Business Intelligence</h3>
               <p className="text-gray-700 mb-4">
