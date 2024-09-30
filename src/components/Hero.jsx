@@ -1,6 +1,6 @@
 // Hero.js
 import React from 'react';
-import sobreNosotrosImg from '../assets/hero.png';
+import sobreNosotrosImg from '../assets/fondo2.png';
 
 
 function Hero() {
